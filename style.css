@@ -1,0 +1,75 @@
+
+/* Universal Selector Reset 
+(so that all devices can format the website as intended)
+* means universal  */
+*{
+    margin:0px;
+    padding:0px
+  }
+
+
+  /* this is what the body should look like */
+  body {
+   font-family: 'Papyrus', sans-serif; 
+  text-align: center;
+    color:#1C0F13;
+   background-color: #e3e3e3; 
+    /* background color */
+  }
+
+  /* styles the p elements s.t. they're centered horizontally */
+  p {
+   margin-top:0;
+    margin-bottom:0;
+    margin-right:20%;
+    margin-left:20%;
+  }
+
+  /* styles the header */
+  header {
+    color:#BBBAC6;}
+
+
+
+
+  /* STYLE TEXT */
+  h1 {
+    color: navy;
+    font-size: 2.2em;
+    padding-top: 1em;
+    padding-bottom:1em;
+  }
+
+  
+  /* STYLE IMAGES */
+  img {
+    max-height: 350px;
+    border-radius: 20%;
+    border: 3px solid whitesmoke; /* gives the images borders*/
+    margin-bottom: 2em;
+    margin-top:3em;
+  }
+
+  /* STYLE NAV BAR */
+  ul {
+    list-style-type: none;
+    background-color: #BBBAC6;
+    overflow: hidden;
+    padding: 1em; 
+  }
+
+  li {
+    display:inline;}
+
+  /*styles a elements within li elements, removing underline, setting text color, font size*/
+
+  li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.3em;
+    padding: 1em;
+  }
+
+  li a:hover {
+    background-color: #6E7E85;
+  }
