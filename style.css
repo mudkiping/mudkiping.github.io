@@ -3,14 +3,14 @@
 (so that all devices can format the website as intended)
 * means universal  */
 *{
-    margin:0px;
-    padding:0px
+    margin:10px;
+    padding:10px
   }
 
 
   /* this is what the body should look like */
   body {
-   font-family: 'Papyrus', sans-serif; 
+   font-family: 'Helvetica', sans-serif; 
   text-align: center;
     color:#1C0F13;
    background-color: #e3e3e3; 
